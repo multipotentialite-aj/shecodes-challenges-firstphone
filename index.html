@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0d470b125d.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <title>First Phone - Nokia 3310</title>
 
     <style>
@@ -49,6 +51,8 @@
             padding: 50px;
             margin: 0 auto;
         }
+        .indent-1 {float: left;}
+        .indent-1 section {width: 50%; float: left;}
 
         /* TYPOGRAPHY */
         h1 {
@@ -95,54 +99,23 @@
 <body>
 
     <div class="container">
-        <div class="content">
+        <div class="row mb-5">
+          <div class="col d-none d-lg-block">
+            <img src="nokia3310.png" class="img-fluid" alt="Yogurt project preview"/>
+          </div>
 
-            <div class="hero">
-                <img src="nokia3310.png" alt="nokia3310" class="nokia3310">
-                <h1>Nokia 3310</h1>
-                <h2>The OG</h2>
+          <div class="col">
+            <div class="project-desciption">
+              <h1 class="mb-5">Nokia 3310</h2>
+              <p class="mb-5 text-muted">
+                I entered the world of front-end development by gaining some knowledge in HTML, CSS, and JavaScript. I used my knowledge of these languages, along with my new skills in VS Code, to build a landing page about Yogurt. The page utilizes JavaScript functions to create user interaction. 
+              </p>
+              <a href="https://en.wikipedia.org/wiki/Nokia_3310" class="btn btn-branding-outline">
+                Learn more about Nokia 3310
+              </a>
             </div>
-
-            <div class="history">
-                <h3>
-                    History
-                </h3>
-                <p>
-                    Nokia 3310 was first released in 2000 and discontinued in 2005.
-                </p>
-                <p>
-                    It remains one of best-selling phones.
-                </p>
-            </div>
-
-            <div class="features">
-                <h3>
-                    Specs
-                </h3>
-                <p>
-                    Weight:  133 g
-                </p>
-                <p>
-                    Dimensions: 113 mm x 48 mm x 22 mm
-                </p>
-                <p>
-                    Units sold: 126 million
-                </p>
-            </div>
-
-            <div class="last-box">
-                <h3>
-                    Today
-                </h3>
-                <p>
-                    Today Nokia 3310 has been redesigned to be colourful. Affordability is still its main selling point.
-                </p>
-                <p>
-                    <a href="https://www.hmd.com/en_int/nokia-3310?sku=A00028228"><img src="nokiared.png" style="width: 30%;"></a>
-                </p>
-            </div>
+          </div>
         </div>
-    </div>
     
 </body>
 
